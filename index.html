@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Sign up to MyApp</title>
+ <link rel="stylesheet" type="text/css" href="pgm1.css" />
+ <script type="text/javascript" src="pgm1.js" defer></script>
+</head>
+<body>
+ <form method="post" action="#" onsubmit="return validate()">
+ <h1>Sign up to MyApp</h1>
+ <p>To be able to use all features of MyApp you will require an account. The form below will allow
+you to create a new account if you don't have one yet.</p>
+ <label for="name">Name</label><br>
+ <input type="text" name="name" id="name"><br>
+ <label for="email">Email</label><br>
+ <input type="text" name="email" id="email"><br>
+ <label for="retype_email">Retype Email</label><br>
+ <input type="text" name="retype_email" id="retype_email"><br>
+ <label for="password">Create a Password</label><br>
+ <input type="password" name="password" id="password"><br>
+ <label for="retype_password">Retype Password</label><br>
+ <input type="password" name="retype_password" id="retype_password"><br>
+ <label>
+ <input type="checkbox" name="terms"> By signing up to MyApp, you agree to our
+ <a href="#service">Terms of Service</a> and <a href="#policy">Privacy Policy</a>.
+ </label><br><br>
+ <div class="button">
+ <input type="submit" class="button" value="Set Up Account">
+ </div>
+ </form>
+</body>
+</html>
